@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programação\\CalculatorC#\\CalculatorC#.csproj": {}
+    "C:\\Programação\\CalculatorC#\\CalculatorCSharp\\CalculatorC#.csproj": {}
   },
   "projects": {
-    "C:\\Programação\\CalculatorC#\\CalculatorC#.csproj": {
+    "C:\\Programação\\CalculatorC#\\CalculatorCSharp\\CalculatorC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programação\\CalculatorC#\\CalculatorC#.csproj",
+        "projectUniqueName": "C:\\Programação\\CalculatorC#\\CalculatorCSharp\\CalculatorC#.csproj",
         "projectName": "CalculatorC#",
-        "projectPath": "C:\\Programação\\CalculatorC#\\CalculatorC#.csproj",
+        "projectPath": "C:\\Programação\\CalculatorC#\\CalculatorCSharp\\CalculatorC#.csproj",
         "packagesPath": "C:\\Users\\patib\\.nuget\\packages\\",
-        "outputPath": "C:\\Programação\\CalculatorC#\\obj\\",
+        "outputPath": "C:\\Programação\\CalculatorC#\\CalculatorCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patib\\AppData\\Roaming\\NuGet\\NuGet.Config",
