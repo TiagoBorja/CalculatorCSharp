@@ -56,5 +56,21 @@ namespace CalculatorC
             Console.WriteLine($"The total division is {total}");
             Console.ReadKey();
         }
+        private void Multiplication()
+        {
+            Console.Clear();
+
+            Console.Write("Number 1: ");
+            double v1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("");
+
+            Console.Write("Number 2: ");
+            double v2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("");
+
+            double total = v1 * v2;
+            Console.WriteLine($"The total division is {total}");
+            Console.ReadKey();
+        }
     }
 }
