@@ -6,7 +6,15 @@ namespace CalculatorC
     {
         static void Main(string[] args)
         {
-            Sum();
+            //User interact
+            Console.WriteLine("Hello! This aplication is a simple calculator. Choose 1 option!");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("1 - Sum");
+            Console.WriteLine("2 - Subtraction");
+            Console.WriteLine("3 - Division");
+            Console.WriteLine("4 - Multiplication");
 
         }
         static void Sum()
