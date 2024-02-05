@@ -6,20 +6,24 @@ namespace CalculatorC
     {
         static void Main(string[] args)
         {
-            //Create a Interaction with user and show the idea
+
+            Sum();
+
+        }
+        static void Sum()
+        {
             Console.Clear();
 
-            Console.WriteLine("Write your name: ");
-            var name = Console.ReadLine();
-            Console.WriteLine($"Hello {name}! This is a simple calculator!");
+            Console.Write("Number 1: ");
+            double v1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("");
 
-            //sum
+            Console.Write("Number 2: ");
+            double v2 = Convert.ToDouble(Console.ReadLine());
+            double total = v1 + v2;
 
-            //division
-
-            //subtraction
-
-            //times
+            Console.WriteLine($"The total sum is {total}");
+            Console.ReadKey();
         }
     }
 }
