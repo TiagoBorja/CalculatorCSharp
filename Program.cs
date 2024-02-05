@@ -6,16 +6,7 @@ namespace CalculatorC
     {
         static void Main(string[] args)
         {
-            //User interact
-            Console.WriteLine("Hello! This aplication is a simple calculator. Choose 1 option!");
-
-            Console.WriteLine("");
-
-            Console.WriteLine("1 - Sum");
-            Console.WriteLine("2 - Subtraction");
-            Console.WriteLine("3 - Division");
-            Console.WriteLine("4 - Multiplication");
-
+            Menu();
         }
         static void Sum()
         {
@@ -48,7 +39,7 @@ namespace CalculatorC
             Console.WriteLine($"The total subtraction is {total}");
             Console.ReadKey();
         }
-        private void Division()
+        static void Division()
         {
             Console.Clear();
 
@@ -64,7 +55,7 @@ namespace CalculatorC
             Console.WriteLine($"The total division is {total}");
             Console.ReadKey();
         }
-        private void Multiplication()
+        static void Multiplication()
         {
             Console.Clear();
 
@@ -79,6 +70,31 @@ namespace CalculatorC
             double total = v1 * v2;
             Console.WriteLine($"The total division is {total}");
             Console.ReadKey();
+        }
+        static void Menu()
+        {
+            Console.Clear();
+            Console.WriteLine("Hello! This aplication is a simple calculator. Choose 1 option!");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("1 - Sum");
+            Console.WriteLine("2 - Subtraction");
+            Console.WriteLine("3 - Division");
+            Console.WriteLine("4 - Multiplication");
+            Console.WriteLine("-------------------------");
+
+            double option = Convert.ToDouble(Console.ReadLine());
+
+            switch (option)
+            {
+                case 1: Sum(); break;
+                case 2: Subtraction(); break;
+                case 3: Division(); break;
+                case 4: Multiplication(); break;
+
+                default: Menu(); break;
+            }
         }
     }
 }
