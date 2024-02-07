@@ -82,6 +82,7 @@ namespace CalculatorC
             Console.WriteLine("2 - Subtraction");
             Console.WriteLine("3 - Division");
             Console.WriteLine("4 - Multiplication");
+            Console.WriteLine("5 - Exit");
             Console.WriteLine("-------------------------");
 
             double option = Convert.ToDouble(Console.ReadLine());
@@ -92,6 +93,7 @@ namespace CalculatorC
                 case 2: Subtraction(); break;
                 case 3: Division(); break;
                 case 4: Multiplication(); break;
+                case 5: System.Environment.Exit(0); break;
 
                 default: Menu(); break;
             }
