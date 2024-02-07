@@ -68,7 +68,7 @@ namespace CalculatorC
             Console.Write("");
 
             double total = v1 * v2;
-            Console.WriteLine($"The total division is {total}");
+            Console.WriteLine($"The total multiplication is {total}");
             Console.ReadKey();
         }
         static void Menu()
